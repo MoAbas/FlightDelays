@@ -1,5 +1,5 @@
 ### Processing and Sorting Flights Log Entries
-The aim is to use the convenient data structures to execute these tasks as quickly as possible.
+The aim of this program is to use the convenient data structures to execute the following tasks as quickly as possible.
 ##### The [flights.csv][identifier] file contains entries between certain dates with different fields, the program reads from the csv file to accomplish three tasks:
 - The user picks a date interval, and [T1.java][new-identifier] shows a summary report for the entiries between these dates, listing and calculating total number of entiries, minimum departure delay, maksimum departure delay and average departure delay for each flight ordered by number of entiries decending.
 - The user picks an airline and a date interval, and [T2.java][new-identifier] shows a report for the entiries between these dates listing, origin airport name, destination airport name, flight number and statistics such as total number of entiries, minimum departure delay, maksimum departure delay, average departure delay ordered by departure delay descending.
